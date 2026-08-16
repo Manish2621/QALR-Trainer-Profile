@@ -6,12 +6,17 @@
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
     --primary-light: #eff6ff;
+
     --dark: #0f172a;
     --dark-2: #1e293b;
+
     --text: #334155;
     --muted: #64748b;
+
     --background: #f8fafc;
+
     --white: #ffffff;
+
     --border: #e2e8f0;
 
     --shadow-sm:
@@ -75,7 +80,9 @@ a {
 .navbar {
 
     position: sticky;
+
     top: 0;
+
     z-index: 1000;
 
     background:
@@ -91,12 +98,15 @@ a {
 .nav-container {
 
     max-width: 1180px;
+
     margin: auto;
 
     padding: 15px 28px;
 
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
 }
 
@@ -108,6 +118,7 @@ a {
     font-family: "Poppins", sans-serif;
 
     font-size: 21px;
+
     font-weight: 700;
 }
 
@@ -123,6 +134,7 @@ a {
 .nav-links {
 
     display: flex;
+
     gap: 27px;
 }
 
@@ -132,6 +144,7 @@ a {
     color: var(--muted);
 
     font-size: 13px;
+
     font-weight: 600;
 
     transition: 0.25s ease;
@@ -166,6 +179,7 @@ a {
 .hero-container {
 
     max-width: 1150px;
+
     margin: auto;
 
     display: grid;
@@ -330,7 +344,7 @@ a {
 
 
 
-/* ================= PHOTO ================= */
+/* ================= PROFILE PHOTO ================= */
 
 .hero-photo {
 
@@ -347,6 +361,7 @@ a {
     position: absolute;
 
     width: 280px;
+
     height: 280px;
 
     border-radius: 50%;
@@ -357,6 +372,7 @@ a {
     filter: blur(45px);
 
     top: 30px;
+
     right: -20px;
 }
 
@@ -397,7 +413,8 @@ a {
 
     padding: 14px 20px;
 
-    background: rgba(15, 23, 42, 0.96);
+    background:
+        rgba(15, 23, 42, 0.96);
 
     color: white;
 
@@ -604,11 +621,13 @@ a {
 .icon {
 
     width: 36px;
+
     height: 36px;
 
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     border-radius: 9px;
@@ -761,14 +780,22 @@ a {
 }
 
 
+
+/* =====================================================
+   TRAINING LOCATIONS
+   ===================================================== */
+
 .journey-card {
+
+    position: relative;
+
+    min-height: 390px;
 
     padding: 35px;
 
     border-radius: 18px;
 
     background:
-
         linear-gradient(
             145deg,
             #0f172a,
@@ -781,9 +808,79 @@ a {
 
     display: flex;
 
-    flex-direction: column;
+    align-items: center;
 
     justify-content: center;
+
+    overflow: hidden;
+
+    isolation: isolate;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+/* BACKGROUND LANDMARK */
+
+.journey-background {
+
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    opacity: 0.13;
+
+    filter:
+        grayscale(100%)
+        brightness(0.65);
+
+    z-index: -2;
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.7s ease,
+        filter 0.5s ease;
+}
+
+
+/* OVERLAY */
+
+.journey-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(15, 23, 42, 0.96),
+            rgba(30, 58, 138, 0.86)
+        );
+
+    z-index: -1;
+}
+
+
+/* CONTENT */
+
+.journey-content {
+
+    position: relative;
+
+    z-index: 3;
+
+    width: 100%;
 }
 
 
@@ -814,8 +911,12 @@ a {
     font-size: 14px;
 
     line-height: 1.8;
+
+    max-width: 410px;
 }
 
+
+/* LOCATION BUTTONS */
 
 .location-tags {
 
@@ -823,25 +924,106 @@ a {
 
     flex-wrap: wrap;
 
-    gap: 7px;
+    gap: 8px;
 
     margin-top: 23px;
 }
 
 
-.location-tags span {
+.location-tags button {
 
-    padding: 6px 9px;
+    appearance: none;
 
-    border: 1px solid rgba(255,255,255,0.18);
+    border: 1px solid
+        rgba(255, 255, 255, 0.18);
 
-    background: rgba(255,255,255,0.05);
-
-    border-radius: 20px;
+    background:
+        rgba(255, 255, 255, 0.05);
 
     color: #e2e8f0;
 
+    padding: 7px 11px;
+
+    border-radius: 20px;
+
+    font-family: "Inter", sans-serif;
+
     font-size: 10px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(7px);
+
+    -webkit-backdrop-filter: blur(7px);
+
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease,
+        color 0.25s ease;
+}
+
+
+.location-tags button:hover,
+.location-tags button.active {
+
+    background:
+        rgba(255, 255, 255, 0.18);
+
+    border-color:
+        rgba(255, 255, 255, 0.45);
+
+    color: white;
+
+    transform:
+        translateY(-2px);
+}
+
+
+/* CARD HOVER */
+
+.journey-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 25px 60px
+        rgba(15, 23, 42, 0.22);
+}
+
+
+.journey-card:hover
+.journey-background {
+
+    opacity: 0.22;
+
+    transform:
+        scale(1.045);
+
+    filter:
+        grayscale(45%)
+        brightness(0.72);
+}
+
+
+/* ACTIVE LOCATION */
+
+.journey-card:has(
+    .location-tags button.active
+)
+.journey-background {
+
+    opacity: 0.25;
+
+    transform:
+        scale(1.06);
+
+    filter:
+        grayscale(25%)
+        brightness(0.75);
 }
 
 
@@ -894,7 +1076,6 @@ a {
 }
 
 
-
 /* COMPANY LOGO */
 
 .company-logo {
@@ -931,7 +1112,6 @@ a {
         opacity 0.4s ease,
         filter 0.4s ease;
 }
-
 
 
 /* COMPANY TEXT */
@@ -988,8 +1168,7 @@ a {
 }
 
 
-
-/* HOVER */
+/* COMPANY HOVER */
 
 .company-card:hover {
 
@@ -1068,7 +1247,7 @@ a {
 
     box-shadow:
         0 0 0 4px
-        rgba(37,99,235,0.08);
+        rgba(37, 99, 235, 0.08);
 }
 
 
@@ -1258,11 +1437,13 @@ a {
     min-width: 40px;
 
     width: 40px;
+
     height: 40px;
 
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     border-radius: 9px;
@@ -1344,6 +1525,7 @@ footer {
     bottom: 24px;
 
     width: 42px;
+
     height: 42px;
 
     border: none;
@@ -1488,6 +1670,10 @@ footer {
     footer {
         flex-direction: column;
         gap: 5px;
+    }
+
+    .journey-card {
+        min-height: 380px;
     }
 
 }
