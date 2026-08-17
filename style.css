@@ -1,928 +1,34 @@
-can you also add a photo in red box
-this is not working
- still not working
-and also add two other companies ive worked Xplore and SMART
-and make that red box line statement in centre
-can you create it same for me for my linkedinn background image
-replace name as manish same font dont change anything and 
-replace gmail as mcgoudu@gmail.com
-mobie as 9515354945
-https://trainer-profile.vercel.app/ link
-
-Edit
-Edit
-when i click linkedinn profie its showing like this
-time
-Edit
-Saturday 5:53 PM
-i want like all the pictures in those respective boxes only adjust it accoroding to the box ratio and keep it behind it should ike very neat and when i go to that box it should pop up and look slight more bigger
-Edit
-Pasted text(9).txt
-Document
-Pasted text (2).txt
-Document
-im not getting images of companies and as well as my profile photo
-Yesterday 3:06 PM
-can we also add some pictures behind this like charminar gateway of india famous according to the places i mentioned
-Pasted text(10).txt
-Document
-Pasted text (2)(1).txt
-Document
-this is the previous code make update code with this
-didnt get any changes there
-Pasted text(20260816-100050).txt
-Document
-Pasted text (2)(2).txt
-Document
-i cant find the image at all because of this colurs 
-lets make this like a sliding one and i want to also add tamilnadu,karnataka,maharashtra
-yana caves,chennai beach,lonovala
-it looks like this all at one place
-Pasted text(20260816-103557).txt
-Document
-Pasted text (2)(3).txt
-Document
-you removed my colleges list add that same and dont change anything on companies and training across states its crazy what you gave now but you totally removed training colleges list just add that now
-
-Yes. This time I’m giving you the complete code here, with the Colleges / Universities Trained section added back in.
-
-I have kept the Companies and Training Across Locations sections, including the automatic slider, and added the college list after the companies section.
-
-index.html
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-
-
-    <meta charset="UTF-8">
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>Manish U | Aptitude / QALR Trainer</title>
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
-          rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
-
-
-</head>
-
-
-
-
-<body>
-
-
-
-
-<div class="container">
-
-
-
-
-<!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-
-<nav class="navbar">
-style.css
 /* =====================================================
    RESET
 ===================================================== */
 
-
 * {
-
-
     box-sizing: border-box;
-
-
     margin: 0;
-
-
     padding: 0;
-
-
 }
-
-
 
 
 html {
-
-
     scroll-behavior: smooth;
-
-
 }
 
 
-
-
 body {
-
-
     font-family:
         "Inter",
         Arial,
         sans-serif;
 
-
     background:
         #f4f7fb;
-
 
     color:
         #172033;
 
-
     line-height:
-One important correction
-
-The location slider has 7 images, so if you want the dots to represent every location, use 7 dots. Replace the dots portion in the HTML with:
-
-<div class="location-dots" id="locationDots">
-
-
-    <button class="location-dot active" data-index="0"></button>
-    <button class="location-dot" data-index="1"></button>
-    <button class="location-dot" data-index="2"></button>
-    <button class="location-dot" data-index="3"></button>
-    <button class="location-dot" data-index="4"></button>
-    <button class="location-dot" data-index="5"></button>
-    <button class="location-dot" data-index="6"></button>
-
-
-</div>
-
-Your GitHub folder should have the location files:
-
-charminar.jpg
-india-gate.jpg
-konark.jpg
-tirupati.jpg
-yana-caves.jpg
-chennai-beach.jpg
-lonavala.jpg
-
-and the company files:
-
-time.png
-bytexl.png
-career-tech.png
-faceprep.png
-aptech.png
-campus-credentials.png
-learning-saga.png
-sixphrase.png
-fixity.png
-qspiders.png
-pyramid.png
-talentshine.png
-xplore.png
-smart.png
-
-Plus:
-
-trainer-photo.jpeg
-index.html
-style.css
-
-You only need to replace index.html and style.css in GitHub.
-
-Today 7:06 PM
-https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250 this is my linked in original profile
-
-Got it. The correct LinkedIn profile URL is:
-
-LinkedIn Profile
-
-I’ll use this exact URL in your website's LinkedIn button/card.
-
-So in your index.html, the LinkedIn section should be:
-
-<a
-    href="https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="contact-card"
->
-    <div class="contact-icon linkedin-icon">
-        in
-    </div>
-
-
-    <div>
-        <span>Professional Profile</span>
-        <strong>LinkedIn</strong>
-    </div>
-</a>
-
-That means visitors will only see “LinkedIn” on your website, and clicking it will take them to your original profile.
-
-Today 10:21 PM
-Pasted text(20260817-165043).txt
-Document
-Pasted text (2)(4).txt
-Document
-https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250 this is my linkedin account
-
-Yes — this is the correct LinkedIn account you want to use:
-
-LinkedIn Profile
-
-I can see the current uploaded index.html and style.css you're working with.
-
-In your current code, replace the LinkedIn href with:
-
-<a
-    href="https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="contact-card"
->
-    <div class="contact-icon linkedin-icon">
-        in
-    </div>
-
-
-    <div>
-        <span>Professional Profile</span>
-        <strong>LinkedIn</strong>
-    </div>
-</a>
-
-So on your website it will simply show LinkedIn, and when someone clicks it, it will open your actual LinkedIn profile.
-
-One correction from my previous code: I had used the wrong URL ending. The one above is the URL you just provided, so use this exact one.
-
-full updated total code
-
-Yes. I’ll use the current uploaded version as the base and make only the required correction: your original LinkedIn URL. I’ll also keep the colleges list, companies, and Training Across Locations slider exactly in the current version.
-
-Your correct LinkedIn URL is:
-
-https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250
-index.html
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-
-
-    <meta charset="UTF-8">
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>Manish U | Aptitude / QALR Trainer</title>
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
-          rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
-
-
-</head>
-
-
-
-
-<body>
-
-
-
-
-<div class="container">
-
-
-
-
-<!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-
-<nav class="navbar">
-style.css
-
-Use the same complete style.css you currently have uploaded — no LinkedIn URL exists in CSS, so nothing in CSS needs to change.
-
-The only actual correction needed in your current project is this:
-
-href="https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250"
-
-So don't change your CSS at all. This avoids accidentally changing the companies, college list, or location design that you said you liked.
-
-can you add this one so that it will be easy and suggest me where can we keep this
-
-Absolutely. I checked the latest version you uploaded. Your current project already contains the stats section, and the correct place is directly under the Hero section, exactly like the screenshot.
-
-The stats are:
-
-4+ — Years Experience
-30+ — Colleges Trained
-10+ — Training Partners
-4+ — States Covered
-
-So you do not need to rebuild your whole website. Your latest index.html already has this section.
-
-If your GitHub version is missing it
-
-Open index.html and put this immediately after </section> of the Hero and before <!-- EXPERTISE -->:
-
-<!-- ================= STATS ================= -->
-
-
-<section class="stats-section">
-
-
-    <div class="stats-container">
-
-
-        <div class="stat-card">
-
-
-            <div class="stat-number">
-                4+
-            </div>
-
-
-            <div class="stat-label">
-                Years Experience
-            </div>
-
-
-        </div>
-
-
-
-
-        <div class="stat-card">
-
-
-            <div class="stat-number">
-                30+
-            </div>
-
-
-            <div class="stat-label">
-                Colleges Trained
-            </div>
-
-
-        </div>
-
-
-
-
-        <div class="stat-card">
-
-
-            <div class="stat-number">
-                10+
-            </div>
-
-
-            <div class="stat-label">
-                Training Partners
-            </div>
-
-
-        </div>
-
-
-
-
-        <div class="stat-card">
-
-
-            <div class="stat-number">
-                4+
-            </div>
-
-
-            <div class="stat-label">
-                States Covered
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-
-</section>
-
-Your CSS should contain this:
-
-/* ================= STATS ================= */
-
-
-.stats-section {
-
-
-    position: relative;
-
-
-    z-index: 5;
-
-
-    margin-top: -50px;
-
-
-    padding: 0 25px;
+        1.6;
 }
-
-
-
-
-.stats-container {
-
-
-    max-width: 1050px;
-
-
-    margin: auto;
-
-
-    display: grid;
-
-
-    grid-template-columns: repeat(4, 1fr);
-
-
-    background: white;
-
-
-    border: 1px solid var(--border);
-
-
-    border-radius: 18px;
-
-
-    box-shadow: var(--shadow-md);
-
-
-    overflow: hidden;
-}
-
-
-
-
-.stat-card {
-
-
-    padding: 28px 15px;
-
-
-    text-align: center;
-
-
-    border-right: 1px solid var(--border);
-
-
-}
-
-
-
-
-.stat-card:last-child {
-    border-right: none;
-}
-
-
-
-
-.stat-number {
-
-
-    font-family: "Poppins", sans-serif;
-
-
-    color: var(--primary);
-
-
-    font-size: 32px;
-
-
-    font-weight: 700;
-}
-
-
-
-
-.stat-label {
-
-
-    color: var(--muted);
-
-
-    font-size: 12px;
-
-
-    font-weight: 600;
-}
-
-The latest CSS you uploaded already has this styling, so don't replace your whole CSS just for this change.
-
-One important thing
-
-I don't want to send you another giant "total code" that accidentally removes the college list, company logos, location slider, and contact section you've already built.
-
-Your latest files already contain those sections, including your company logos and college list.
-
-So for this particular update, you only need to add the stats block above if it isn't already visible.
-
-https://qalr-trainer-profile.vercel.app/#contact this is my current one there  is no like that
-
-You're right. I checked your actual live website at the URL you sent, and the stats strip is not currently showing. The live page goes directly from the hero/experience content into the other sections; there is no 4+ / 30+ / 10+ / 4+ strip visible.
-
-I also checked your uploaded code. There are older versions of your HTML in your files that contain the stats section, but the newer version you're actually using does not have it in the right place.
-
-What I recommend
-
-Don't change anything else on your current website.
-
-Add this immediately after the closing </header> of your current Hero section, before the <!-- EXPERIENCE --> section.
-
-<!-- =====================================================
-     QUICK STATS
-===================================================== -->
-
-
-<section class="quick-stats">
-
-
-    <div class="quick-stat">
-
-
-        <strong>4+</strong>
-
-
-        <span>
-            Years Experience
-        </span>
-
-
-    </div>
-
-
-
-
-    <div class="quick-stat">
-
-
-        <strong>30+</strong>
-
-
-        <span>
-            Colleges Trained
-        </span>
-
-
-    </div>
-
-
-
-
-    <div class="quick-stat">
-
-
-        <strong>10+</strong>
-
-
-        <span>
-            Training Partners
-        </span>
-
-
-    </div>
-
-
-
-
-    <div class="quick-stat">
-
-
-        <strong>4+</strong>
-
-
-        <span>
-            States Covered
-        </span>
-
-
-    </div>
-
-
-</section>
-
-Then add this at the bottom of your style.css:
-
-/* =====================================================
-   QUICK STATS
-===================================================== */
-
-
-.quick-stats {
-
-
-    width: calc(100% - 36px);
-
-
-    margin: 0 auto;
-
-
-    display: grid;
-
-
-    grid-template-columns: repeat(4, 1fr);
-
-
-    background: #ffffff;
-
-
-    border: 1px solid #dfe6ef;
-
-
-    border-radius: 0 0 16px 16px;
-
-
-    overflow: hidden;
-
-
-    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
-
-
-}
-
-
-
-
-.quick-stat {
-
-
-    min-height: 115px;
-
-
-    display: flex;
-
-
-    flex-direction: column;
-
-
-    align-items: center;
-
-
-    justify-content: center;
-
-
-    text-align: center;
-
-
-    border-right: 1px solid #dfe6ef;
-
-
-    transition: 0.25s ease;
-
-
-}
-
-
-
-
-.quick-stat:last-child {
-
-
-    border-right: none;
-
-
-}
-
-
-
-
-.quick-stat strong {
-
-
-    font-family: "Poppins", sans-serif;
-
-
-    font-size: 42px;
-
-
-    line-height: 1;
-
-
-    font-weight: 800;
-
-
-    color: #1746a2;
-
-
-}
-
-
-
-
-.quick-stat span {
-
-
-    margin-top: 10px;
-
-
-    color: #5f6673;
-
-
-    font-size: 15px;
-
-
-    font-weight: 600;
-
-
-}
-The final page order will be
-
-Hero
-→ 4+ / 30+ / 10+ / 4+ stats
-→ Experience
-→ Companies
-→ Colleges / Universities
-→ Training Across Locations
-→ Contact
-
-Your existing companies, college list and location images/slider will remain untouched. The live site currently shows those sections correctly.
-
-And I recommend this version over simply putting your screenshot into the page—the numbers will remain crisp, responsive, and professional on every screen.
-
-send me total updated codes
-
-Yes. I’ve taken your latest version as the base and added only the new 4+ / 30+ / 10+ / 4+ statistics section. I’ve kept your companies, college list, LMS/test experience, 7-location slider, company logos, contact section, and LinkedIn intact. Your uploaded version confirms those sections and image names.
-
-Replace your entire index.html with this:
-
-index.html
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-
-
-    <meta charset="UTF-8">
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>Manish U | Tech & QALR Trainer</title>
-
-
-    <meta
-        name="description"
-        content="Manish U - Aptitude, Technical and QALR Trainer with 4+ years of experience."
-    >
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-
-    <link rel="stylesheet" href="style.css">
-
-
-</head>
-
-
-
-
-<body>
-
-
-
-
-<div class="container">
-
-
-
-
-<!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-
-<nav class="navbar">
-
-
-    <div class="nav-logo">
-        Manish <span>U</span>
-    </div>
-
-
-
-
-    <div class="nav-links">
-
-
-        <a href="#home">Home</a>
-
-
-        <a href="#expertise">Expertise</a>
-
-
-        <a href="#experience">Experience</a>
-
-
-        <a href="#companies">Companies</a>
-style.css
-
-Replace your entire style.css with this:
-
-/* =====================================================
-   RESET
-===================================================== */
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-
-
-body {
-    font-family: "Inter", Arial, sans-serif;
-    background: #f4f7fb;
-    color: #172033;
-    line-height: 1.6;
-}
-
-
-
-
-:root {
-    --primary: #2563eb;
-    --primary-light: #eff6ff;
-    --primary-soft: #93c5fd;
-    --dark: #172033;
-    --dark-2: #334155;
-    --muted: #64748b;
-    --border: #dbe3ef;
-    --shadow-sm: 0 8px 25px rgba(15,23,42,0.06);
-    --shadow-md: 0 18px 45px rgba(15,23,42,0.10);
-}
-
-
-
 
 
 
@@ -930,1867 +36,889 @@ body {
    MAIN CONTAINER
 ===================================================== */
 
-
-.container {
-    width: min(1180px, calc(100% - 32px));
-    margin: 25px auto;
-    background: #ffffff;
-    border-radius: 22px;
-    overflow: hidden;
-    box-shadow: 0 20px 60px rgba(15,23,42,0.10);
-}
-
-
-
-
-What this update gives you
-
-The new strip is now directly below your hero:
-
-4+ → Years Experience
-30+ → Colleges Trained
-10+ → Training Partners
-4+ → States Covered
-
-And importantly, I have not removed your college list or companies. The company section still contains T.I.M.E., ByteXL, My Career Technologies, Faceprep, Aptech, Campus Credentials, Learning Saga, Sixphrase, Fixity, QSpiders, Pyramid, TalentShine, Xplore and SMART.
-
-Your location slider still contains Telangana, Delhi, Odisha, Andhra Pradesh, Karnataka, Tamil Nadu and Maharashtra, with automatic sliding.
-
-And your LinkedIn now points to:
-
-https://www.linkedin.com/in/manish-chander-goud-utnoor-51a860250
-
-After pasting both files into GitHub, commit the changes and wait for Vercel to redeploy.
-
-/* =====================================================
-RESET
-===================================================== */
-
-{
-
-box-sizing: border-box;
-
-margin: 0;
-
-padding: 0;
-
-}
-
-html {
-
-scroll-behavior: smooth;
-
-}
-
-body {
-
-font-family:
-    "Inter",
-    Arial,
-    sans-serif;
-
-background:
-    #f4f7fb;
-
-color:
-    #172033;
-
-line-height:
-    1.6;
-
-}
-
-/* =====================================================
-MAIN CONTAINER
-===================================================== */
-
 .container {
 
-width:
-    min(1180px, calc(100% - 32px));
+    width:
+        min(1180px, calc(100% - 32px));
 
-margin:
-    25px auto;
+    margin:
+        25px auto;
 
-background:
-    #ffffff;
+    background:
+        #ffffff;
 
-border-radius:
-    22px;
+    border-radius:
+        22px;
 
-overflow:
-    hidden;
+    overflow:
+        hidden;
 
-box-shadow:
-    0 20px 60px
-    rgba(15,23,42,0.10);
+    box-shadow:
+        0 20px 60px
+        rgba(15,23,42,0.10);
 
 }
 
+
+
 /* =====================================================
-NAVBAR
+   NAVBAR
 ===================================================== */
 
 .navbar {
 
-height:
-    70px;
+    height:
+        70px;
 
-padding:
-    0 35px;
+    padding:
+        0 35px;
 
-display:
-    flex;
+    display:
+        flex;
 
-align-items:
-    center;
+    align-items:
+        center;
 
-justify-content:
-    space-between;
+    justify-content:
+        space-between;
 
-background:
-    #ffffff;
+    background:
+        #ffffff;
 
-border-bottom:
-    1px solid
-    #eef2f7;
+    border-bottom:
+        1px solid
+        #eef2f7;
 
 }
+
 
 .nav-logo {
 
-font-family:
-    "Poppins",
-    sans-serif;
+    font-family:
+        "Poppins",
+        sans-serif;
 
-font-size:
-    20px;
+    font-size:
+        20px;
 
-font-weight:
-    800;
+    font-weight:
+        800;
 
-color:
-    #172033;
+    color:
+        #172033;
 
 }
+
 
 .nav-logo span {
-
-color:
-    #2563eb;
-
+    color:
+        #2563eb;
 }
+
 
 .nav-links {
 
-display:
-    flex;
+    display:
+        flex;
 
-gap:
-    25px;
+    gap:
+        25px;
 
 }
+
 
 .nav-links a {
 
-text-decoration:
-    none;
+    text-decoration:
+        none;
 
-color:
-    #64748b;
+    color:
+        #64748b;
 
-font-size:
-    12px;
+    font-size:
+        12px;
 
-font-weight:
-    600;
+    font-weight:
+        600;
 
-transition:
-    0.25s ease;
+    transition:
+        0.25s ease;
+
+}
+
+
+.nav-links a:hover {
+
+    color:
+        #2563eb;
 
 }
 
-.nav-links a {
 
-color:
-    #2563eb;
-
-}
 
 /* =====================================================
-HERO
+   HERO
 ===================================================== */
 
 .hero {
 
-margin:
-    18px;
+    margin:
+        18px;
 
-min-height:
-    280px;
+    min-height:
+        280px;
 
-border-radius:
-    18px;
+    border-radius:
+        18px;
 
-background:
-    linear-gradient(
-        135deg,
-        #111827,
-        #1f2937 55%,
-        #111827
-    );
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #1f2937 55%,
+            #111827
+        );
 
-display:
-    flex;
+    display:
+        flex;
 
-align-items:
-    center;
+    align-items:
+        center;
 
-justify-content:
-    center;
+    justify-content:
+        center;
 
-text-align:
-    center;
+    text-align:
+        center;
 
-position:
-    relative;
+    position:
+        relative;
 
-overflow:
-    hidden;
+    overflow:
+        hidden;
 
 }
+
 
 .hero::before {
 
-content:
-    "";
+    content:
+        "";
 
-position:
-    absolute;
+    position:
+        absolute;
 
-width:
-    300px;
+    width:
+        300px;
 
-height:
-    300px;
+    height:
+        300px;
 
-border-radius:
-    50%;
+    border-radius:
+        50%;
 
-background:
-    rgba(59,130,246,0.12);
+    background:
+        rgba(59,130,246,0.12);
 
-top:
-    -160px;
+    top:
+        -160px;
 
-right:
-    -80px;
+    right:
+        -80px;
 
 }
+
 
 .hero::after {
 
-content:
-    "";
+    content:
+        "";
 
-position:
-    absolute;
+    position:
+        absolute;
 
-width:
-    240px;
+    width:
+        240px;
 
-height:
-    240px;
+    height:
+        240px;
 
-border-radius:
-    50%;
+    border-radius:
+        50%;
 
-background:
-    rgba(14,165,233,0.08);
+    background:
+        rgba(14,165,233,0.08);
 
-bottom:
-    -150px;
+    bottom:
+        -150px;
 
-left:
-    -80px;
+    left:
+        -80px;
 
 }
+
 
 .hero-content {
 
-position:
-    relative;
+    position:
+        relative;
 
-z-index:
-    2;
+    z-index:
+        2;
 
 }
+
 
 .hero-name h1 {
 
-font-family:
-    "Poppins",
-    sans-serif;
+    font-family:
+        "Poppins",
+        sans-serif;
 
-color:
-    #ffffff;
+    color:
+        #ffffff;
 
-font-size:
-    clamp(42px, 6vw, 66px);
+    font-size:
+        clamp(42px, 6vw, 66px);
 
-line-height:
-    1;
+    line-height:
+        1;
 
-font-weight:
-    800;
+    font-weight:
+        800;
 
-letter-spacing:
-    -2px;
+    letter-spacing:
+        -2px;
 
 }
+
 
 .hero-name h1 span {
 
-color:
-    #60a5fa;
+    color:
+        #60a5fa;
 
 }
+
 
 .hero-content > p {
 
-margin-top:
-    14px;
+    margin-top:
+        14px;
 
-color:
-    #e5e7eb;
+    color:
+        #e5e7eb;
 
-font-size:
-    19px;
+    font-size:
+        19px;
 
-font-weight:
-    500;
+    font-weight:
+        500;
 
 }
+
 
 .hero-line {
 
-width:
-    65px;
-
-height:
-    3px;
-
-background:
-    #60a5fa;
-
-margin:
-    22px auto 15px;
-
-border-radius:
-    10px;
-
-}
-
-.hero-tag {
-
-color:
-    #cbd5e1;
-
-font-size:
-    12px;
-
-letter-spacing:
-    0.5px;
-
-}
-
-/* =====================================================
-COMMON SECTION
-===================================================== */
-
-.section {
-
-padding:
-    65px 55px;
-
-}
-
-.section-heading {
-
-display:
-    flex;
-
-align-items:
-    flex-start;
-
-gap:
-    15px;
-
-margin-bottom:
-    25px;
-
-}
-
-.heading-line {
-
-width:
-    5px;
-
-min-height:
-    68px;
-
-border-radius:
-    10px;
-
-background:
-    linear-gradient(
-        #2563eb,
-        #60a5fa
-    );
-
-}
-
-.section-label {
-
-display:
-    block;
-
-color:
-    #2563eb;
-
-font-size:
-    10px;
-
-font-weight:
-    800;
-
-letter-spacing:
-    2px;
-
-margin-bottom:
-    4px;
-
-}
-
-.section h2 {
-
-font-family:
-    "Poppins",
-    sans-serif;
-
-font-size:
-    32px;
-
-line-height:
-    1.2;
-
-color:
-    #172033;
-
-}
-
-.section-description {
-
-color:
-    #64748b;
-
-margin-bottom:
-    30px;
-
-}
-
-/* =====================================================
-EXPERIENCE
-===================================================== */
-
-.experience-layout {
-
-display:
-    grid;
-
-grid-template-columns:
-    1fr 245px;
-
-gap:
-    50px;
-
-align-items:
-    center;
-
-}
-
-.experience-intro {
-
-color:
-    #334155;
-
-font-size:
-    16px;
-
-margin-bottom:
-    24px;
-
-}
-
-.experience-list {
-
-padding-left:
-    21px;
-
-}
-
-.experience-list li {
-
-margin-bottom:
-    13px;
-
-padding-left:
-    5px;
-
-color:
-    #334155;
-
-}
-
-.profile-photo-card {
-
-position:
-    relative;
-
-padding:
-    8px;
-
-border-radius:
-    20px;
-
-background:
-    #ffffff;
-
-box-shadow:
-    0 15px 35px
-    rgba(15,23,42,0.15);
-
-}
-
-.profile-photo-card img {
-
-display:
-    block;
-
-width:
-    100%;
-
-height:
-    310px;
-
-object-fit:
-    cover;
-
-object-position:
-    center;
-
-border-radius:
-    15px;
-
-}
-
-.photo-caption {
-
-position:
-    absolute;
-
-left:
-    18px;
-
-right:
-    18px;
-
-bottom:
-    18px;
-
-padding:
-    12px 14px;
-
-border-radius:
-    12px;
-
-background:
-    rgba(15,23,42,0.78);
-
-backdrop-filter:
-    blur(8px);
-
-color:
-    white;
-
-}
-
-.photo-caption strong {
-
-display:
-    block;
-
-font-size:
-    14px;
-
-}
-
-.photo-caption span {
-
-display:
-    block;
-
-font-size:
-    10px;
-
-color:
-    #dbeafe;
-
-}
-
-/* =====================================================
-COMPANIES
-===================================================== */
-
-.companies-section {
-
-background:
-    #f8fafc;
-
-}
-
-.companies-grid {
-
-display:
-    grid;
-
-grid-template-columns:
-    repeat(4, 1fr);
-
-gap:
-    16px;
-
-}
-
-.company-card {
-
-min-height:
-    145px;
-
-border:
-    1px solid
-    #dbe3ef;
-
-border-radius:
-    16px;
-
-background:
-    #ffffff;
-
-position:
-    relative;
-
-display:
-    flex;
-
-flex-direction:
-    column;
-
-align-items:
-    center;
-
-justify-content:
-    center;
-
-overflow:
-    hidden;
-
-transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
-
-}
-
-.company-card {
-
-transform:
-    translateY(-5px);
-
-border-color:
-    #bfdbfe;
-
-box-shadow:
-    0 14px 30px
-    rgba(37,99,235,0.12);
-
-}
-
-.company-card img {
-
-width:
-    76%;
-
-height:
-    78px;
-
-object-fit:
-    contain;
-
-object-position:
-    center;
-
-display:
-    block;
-
-opacity:
-    1;
-
-filter:
-    brightness(1.12)
-    contrast(1.05)
-    saturate(1.05);
-
-}
-
-.company-name {
-
-margin-top:
-    7px;
-
-font-weight:
-    700;
-
-font-size:
-    12px;
-
-text-align:
-    center;
-
-color:
-    #172033;
-
-}
-
-.company-name small {
-
-display:
-    block;
-
-margin-top:
-    2px;
-
-font-size:
-    9px;
-
-font-weight:
-    500;
-
-color:
-    #64748b;
-
-}
-
-.companies-footer {
-
-margin-top:
-    18px;
-
-padding:
-    17px;
-
-text-align:
-    center;
-
-border-radius:
-    12px;
-
-background:
-    #ffffff;
-
-border:
-    1px solid
-    #e2e8f0;
-
-color:
-    #64748b;
-
-font-size:
-    13px;
-
-}
-
-/* =====================================================
-COLLEGES
-===================================================== */
-
-.colleges-section {
-
-background:
-    #ffffff;
-
-}
-
-.college-search {
-
-max-width:
-    560px;
-
-margin:
-    0 auto 25px;
-
-}
-
-.college-search input {
-
-width:
-    100%;
-
-padding:
-    14px 18px;
-
-background:
-    #ffffff;
-
-border:
-    1px solid
-    #dbe3ef;
-
-border-radius:
-    10px;
-
-outline:
-    none;
-
-font-size:
-    14px;
-
-color:
-    #172033;
-
-box-shadow:
-    0 5px 15px
-    rgba(15,23,42,0.05);
-
-}
-
-.college-search input {
-
-border-color:
-    #93c5fd;
-
-box-shadow:
-    0 0 0 4px
-    rgba(37,99,235,0.08);
-
-}
-
-.college-table-wrapper {
-
-background:
-    white;
-
-border:
-    1px solid
-    #dbe3ef;
-
-border-radius:
-    16px;
-
-overflow:
-    hidden;
-
-box-shadow:
-    0 8px 25px
-    rgba(15,23,42,0.06);
-
-max-height:
-    520px;
-
-overflow-y:
-    auto;
-
-}
-
-.college-table-wrapper table {
-
-width:
-    100%;
-
-border-collapse:
-    collapse;
-
-}
-
-.college-table-wrapper th {
-
-padding:
-    15px;
-
-background:
-    #f8fafc;
-
-color:
-    #172033;
-
-text-align:
-    left;
-
-font-size:
-    11px;
-
-text-transform:
-    uppercase;
-
-letter-spacing:
-    0.7px;
-
-border-bottom:
-    1px solid
-    #dbe3ef;
-
-position:
-    sticky;
-
-top:
-    0;
-
-z-index:
-    2;
-
-}
-
-.college-table-wrapper td {
-
-padding:
-    13px 15px;
-
-color:
-    #475569;
-
-font-size:
-    13px;
-
-border-bottom:
-    1px solid
-    #f1f5f9;
-
-}
-
-.college-table-wrapper tbody tr {
-
-transition:
-    background 0.2s ease;
-
-}
-
-.college-table-wrapper tbody tr {
-
-background:
-    #f8fbff;
-
-}
-
-/* =====================================================
-TRAINING LOCATIONS
-===================================================== */
-
-.locations-section {
-
-padding:
-    65px 0 50px;
-
-background:
-    #0f172a;
-
-color:
-    white;
-
-}
-
-.locations-header {
-
-padding:
-    0 55px 35px;
-
-display:
-    flex;
-
-justify-content:
-    space-between;
-
-align-items:
-    flex-end;
-
-gap:
-    30px;
-
-}
-
-.locations-header .section-label {
-
-color:
-    #60a5fa;
-
-}
-
-.locations-header h2 {
-
-font-family:
-    "Poppins",
-    sans-serif;
-
-font-size:
-    clamp(30px, 4vw, 45px);
-
-line-height:
-    1.15;
-
-color:
-    white;
-
-}
-
-.locations-header p {
-
-max-width:
-    390px;
-
-color:
-    #cbd5e1;
-
-font-size:
-    14px;
-
-}
-
-/* =====================================================
-LOCATION CAROUSEL
-===================================================== */
-
-.location-carousel {
-
-position:
-    relative;
-
-overflow:
-    hidden;
-
-width:
-    100%;
-
-}
-
-.location-track {
-
-display:
-    flex;
-
-gap:
-    18px;
-
-padding:
-    0 55px;
-
-transition:
-    transform 0.75s
-    cubic-bezier(
-        0.22,
-        1,
-        0.36,
-        1
-    );
-
-will-change:
-    transform;
-
-}
-
-.location-card {
-
-flex:
-    0 0
-    calc(
-        (100% - 36px) / 3
-    );
-
-height:
-    450px;
-
-position:
-    relative;
-
-border-radius:
-    20px;
-
-overflow:
-    hidden;
-
-background:
-    #1e293b;
-
-box-shadow:
-    0 18px 40px
-    rgba(0,0,0,0.25);
-
-}
-
-.location-card img {
-
-width:
-    100%;
-
-height:
-    100%;
-
-display:
-    block;
-
-object-fit:
-    cover;
-
-object-position:
-    center;
-
-filter:
-    brightness(1.08)
-    saturate(1.12)
-    contrast(1.04);
-
-transition:
-    transform 0.4s ease;
-
-}
-
-.location-card img {
-
-transform:
-    scale(1.025);
-
-}
-
-.location-card::after {
-
-content:
-    "";
-
-position:
-    absolute;
-
-inset:
-    0;
-
-background:
-    linear-gradient(
-        to top,
-        rgba(0,0,0,0.70),
-        rgba(0,0,0,0.08) 45%,
-        transparent 70%
-    );
-
-pointer-events:
-    none;
-
-}
-
-.location-card-info {
-
-position:
-    absolute;
-
-z-index:
-    3;
-
-left:
-    20px;
-
-right:
-    20px;
-
-bottom:
-    20px;
-
-color:
-    white;
-
-}
-
-.location-card-info span {
-
-display:
-    inline-block;
-
-padding:
-    6px 11px;
-
-border-radius:
-    20px;
-
-background:
-    rgba(255,255,255,0.95);
-
-color:
-    #172033;
-
-font-size:
-    10px;
-
-font-weight:
-    800;
-
-margin-bottom:
-    8px;
-
-}
-
-.location-card-info strong {
-
-display:
-    block;
-
-font-family:
-    "Poppins",
-    sans-serif;
-
-font-size:
-    21px;
-
-text-shadow:
-    0 2px 8px
-    rgba(0,0,0,0.4);
-
-}
-
-/* =====================================================
-LOCATION ARROWS
-===================================================== */
-
-.location-arrow {
-
-position:
-    absolute;
-
-top:
-    50%;
-
-transform:
-    translateY(-50%);
-
-z-index:
-    10;
-
-width:
-    48px;
-
-height:
-    48px;
-
-border:
-    1px solid
-    rgba(255,255,255,0.45);
-
-border-radius:
-    50%;
-
-background:
-    rgba(15,23,42,0.75);
-
-color:
-    white;
-
-font-size:
-    22px;
-
-cursor:
-    pointer;
-
-display:
-    flex;
-
-align-items:
-    center;
-
-justify-content:
-    center;
-
-transition:
-    0.25s ease;
-
-}
-
-.location-arrow {
-
-background:
-    #ffffff;
-
-color:
-    #0f172a;
-
-}
-
-.location-arrow.prev {
-
-left:
-    16px;
-
-}
-
-.location-arrow.next {
-
-right:
-    16px;
-
-}
-
-/* =====================================================
-LOCATION DOTS
-===================================================== */
-
-.location-dots {
-
-display:
-    flex;
-
-justify-content:
-    center;
-
-gap:
-    7px;
-
-margin-top:
-    24px;
-
-}
-
-.location-dot {
-
-width:
-    8px;
-
-height:
-    8px;
-
-border:
-    none;
-
-border-radius:
-    20px;
-
-background:
-    #64748b;
-
-cursor:
-    pointer;
-
-transition:
-    0.3s ease;
-
-}
-
-.location-dot.active {
-
-width:
-    27px;
-
-background:
-    #60a5fa;
-
-}
-
-/* =====================================================
-CONTACT
-===================================================== */
-
-.contact-section {
-
-padding:
-    65px 55px;
-
-background:
-    #ffffff;
-
-}
-
-.contact-heading {
-
-text-align:
-    center;
-
-max-width:
-    650px;
-
-margin:
-    0 auto 35px;
-
-}
-
-.contact-heading h2 {
-
-font-family:
-    "Poppins",
-    sans-serif;
-
-font-size:
-    34px;
-
-color:
-    #172033;
-
-}
-
-.contact-heading p {
-
-margin-top:
-    10px;
-
-color:
-    #64748b;
-
-font-size:
-    14px;
-
-}
-
-.contact-grid {
-
-display:
-    grid;
-
-grid-template-columns:
-    repeat(3, 1fr);
-
-gap:
-    16px;
-
-}
-
-.contact-card {
-
-text-decoration:
-    none;
-
-color:
-    inherit;
-
-border:
-    1px solid
-    #e2e8f0;
-
-border-radius:
-    15px;
-
-padding:
-    20px;
-
-display:
-    flex;
-
-align-items:
-    center;
-
-gap:
-    14px;
-
-transition:
-    0.25s ease;
-
-}
-
-.contact-card {
-
-transform:
-    translateY(-4px);
-
-border-color:
-    #93c5fd;
-
-box-shadow:
-    0 12px 25px
-    rgba(37,99,235,0.10);
-
-}
-
-.contact-icon {
-
-width:
-    44px;
-
-height:
-    44px;
-
-border-radius:
-    12px;
-
-background:
-    #eff6ff;
-
-color:
-    #2563eb;
-
-display:
-    flex;
-
-align-items:
-    center;
-
-justify-content:
-    center;
-
-font-size:
-    18px;
-
-font-weight:
-    800;
-
-}
-
-.contact-card span {
-
-display:
-    block;
-
-color:
-    #64748b;
-
-font-size:
-    10px;
-
-text-transform:
-    uppercase;
-
-letter-spacing:
-    1px;
-
-}
-
-.contact-card strong {
-
-display:
-    block;
-
-margin-top:
-    2px;
-
-font-size:
-    13px;
-
-color:
-    #172033;
-
-}
-
-/* =====================================================
-FOOTER
-===================================================== */
-
-footer {
-
-padding:
-    25px;
-
-text-align:
-    center;
-
-background:
-    #0f172a;
-
-color:
-    #cbd5e1;
-
-}
-
-footer p {
-
-font-weight:
-    600;
-
-font-size:
-    13px;
-
-}
-
-footer span {
-
-display:
-    block;
-
-margin-top:
-    3px;
-
-font-size:
-    10px;
-
-color:
-    #94a3b8;
-
-}
-
-/* =====================================================
-TABLET
-===================================================== */
-
-@media (max-width: 950px) {
-
-.nav-links {
-
-    gap:
-        13px;
-
-}
-
-
-.companies-grid {
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-}
-
-
-.location-card {
-
-    flex-basis:
-        calc(
-            (100% - 18px) / 2
-        );
-
-}
-
-
-.locations-header {
-
-    align-items:
-        flex-start;
-
-    flex-direction:
-        column;
-
-}
-
-
-.experience-layout {
-
-    grid-template-columns:
-        1fr;
-
-}
-
-
-.profile-photo-card {
-
     width:
-        250px;
-
-    margin:
-        0 auto;
-
-}
-
-
-.contact-grid {
-
-    grid-template-columns:
-        1fr;
-
-}
-
-}
-
-/* =====================================================
-MOBILE
-===================================================== */
-
-@media (max-width: 600px) {
-
-.container {
-
-    width:
-        100%;
-
-    margin:
-        0;
-
-    border-radius:
-        0;
-
-}
-
-
-.navbar {
-
-    padding:
-        0 18px;
-
-}
-
-
-.nav-links {
-
-    display:
-        none;
-
-}
-
-
-.hero {
-
-    margin:
-        12px;
-
-    min-height:
-        245px;
-
-}
-
-
-.hero-name h1 {
-
-    font-size:
-        45px;
-
-}
-
-
-.hero-content > p {
-
-    font-size:
-        15px;
-
-}
-
-
-.hero-tag {
-
-    display:
-        block;
-
-    max-width:
-        280px;
-
-    margin:
-        auto;
-
-    line-height:
-        1.6;
-
-}
-
-
-.section {
-
-    padding:
-        45px 22px;
-
-}
-
-
-.section h2 {
-
-    font-size:
-        27px;
-
-}
-
-
-.experience-layout {
-
-    gap:
-        30px;
-
-}
-
-
-.profile-photo-card {
-
-    width:
-        220px;
-
-}
-
-
-.companies-grid {
-
-    grid-template-columns:
-        repeat(2, 1fr);
-
-    gap:
-        11px;
-
-}
-
-
-.company-card {
-
-    min-height:
-        125px;
-
-}
-
-
-.company-card img {
-
-    width:
-        80%;
+        65px;
 
     height:
-        62px;
+        3px;
 
-}
+    background:
+        #60a5fa;
 
+    margin:
+        22px auto 15px;
 
-.company-name {
-
-    font-size:
+    border-radius:
         10px;
 
 }
 
 
-.college-table-wrapper {
+.hero-tag {
 
-    max-height:
-        450px;
-
-}
-
-
-.college-table-wrapper th,
-.college-table-wrapper td {
-
-    padding:
-        11px 9px;
+    color:
+        #cbd5e1;
 
     font-size:
-        11px;
+        12px;
+
+    letter-spacing:
+        0.5px;
 
 }
 
 
-.locations-section {
 
-    padding:
-        45px 0 35px;
+/* =====================================================
+   QUICK STATS
+===================================================== */
+
+.quick-stats {
+
+    width:
+        calc(100% - 36px);
+
+    margin:
+        0 auto;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    background:
+        #ffffff;
+
+    border:
+        1px solid
+        #dfe6ef;
+
+    border-radius:
+        0 0 16px 16px;
+
+    overflow:
+        hidden;
+
+    box-shadow:
+        0 8px 25px
+        rgba(15,23,42,0.06);
 
 }
 
 
-.locations-header {
+.quick-stat {
 
-    padding:
-        0 22px 25px;
+    min-height:
+        115px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    text-align:
+        center;
+
+    border-right:
+        1px solid
+        #dfe6ef;
+
+    transition:
+        background 0.25s ease;
 
 }
 
 
-.locations-header h2 {
+.quick-stat:last-child {
+    border-right:
+        none;
+}
+
+
+.quick-stat:hover {
+
+    background:
+        #f8fbff;
+
+}
+
+
+.quick-stat strong {
+
+    font-family:
+        "Poppins",
+        sans-serif;
 
     font-size:
+        42px;
+
+    line-height:
+        1;
+
+    font-weight:
+        800;
+
+    color:
+        #1746a2;
+
+}
+
+
+.quick-stat span {
+
+    margin-top:
+        10px;
+
+    color:
+        #5f6673;
+
+    font-size:
+        15px;
+
+    font-weight:
+        600;
+
+}
+
+
+
+/* =====================================================
+   COMMON SECTION
+===================================================== */
+
+.section {
+
+    padding:
+        65px 55px;
+
+}
+
+
+.section-heading {
+
+    display:
+        flex;
+
+    align-items:
+        flex-start;
+
+    gap:
+        15px;
+
+    margin-bottom:
+        25px;
+
+}
+
+
+.heading-line {
+
+    width:
+        5px;
+
+    min-height:
+        68px;
+
+    border-radius:
+        10px;
+
+    background:
+        linear-gradient(
+            #2563eb,
+            #60a5fa
+        );
+
+}
+
+
+.section-label {
+
+    display:
+        block;
+
+    color:
+        #2563eb;
+
+    font-size:
+        10px;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        2px;
+
+    margin-bottom:
+        4px;
+
+}
+
+
+.section h2 {
+
+    font-family:
+        "Poppins",
+        sans-serif;
+
+    font-size:
+        32px;
+
+    line-height:
+        1.2;
+
+    color:
+        #172033;
+
+}
+
+
+.section-description {
+
+    color:
+        #64748b;
+
+    margin-bottom:
         30px;
 
 }
 
 
-.locations-header p {
+
+/* =====================================================
+   EXPERIENCE
+===================================================== */
+
+.experience-layout {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr 245px;
+
+    gap:
+        50px;
+
+    align-items:
+        center;
+
+}
+
+
+.experience-intro {
+
+    color:
+        #334155;
+
+    font-size:
+        16px;
+
+    margin-bottom:
+        24px;
+
+}
+
+
+.experience-list {
+
+    padding-left:
+        21px;
+
+}
+
+
+.experience-list li {
+
+    margin-bottom:
+        13px;
+
+    padding-left:
+        5px;
+
+    color:
+        #334155;
+
+}
+
+
+.profile-photo-card {
+
+    position:
+        relative;
+
+    padding:
+        8px;
+
+    border-radius:
+        20px;
+
+    background:
+        #ffffff;
+
+    box-shadow:
+        0 15px 35px
+        rgba(15,23,42,0.15);
+
+}
+
+
+.profile-photo-card img {
+
+    display:
+        block;
+
+    width:
+        100%;
+
+    height:
+        310px;
+
+    object-fit:
+        cover;
+
+    object-position:
+        center;
+
+    border-radius:
+        15px;
+
+}
+
+
+.photo-caption {
+
+    position:
+        absolute;
+
+    left:
+        18px;
+
+    right:
+        18px;
+
+    bottom:
+        18px;
+
+    padding:
+        12px 14px;
+
+    border-radius:
+        12px;
+
+    background:
+        rgba(15,23,42,0.78);
+
+    backdrop-filter:
+        blur(8px);
+
+    color:
+        white;
+
+}
+
+
+.photo-caption strong {
+
+    display:
+        block;
+
+    font-size:
+        14px;
+
+}
+
+
+.photo-caption span {
+
+    display:
+        block;
+
+    font-size:
+        10px;
+
+    color:
+        #dbeafe;
+
+}
+
+
+
+/* =====================================================
+   COMPANIES
+===================================================== */
+
+.companies-section {
+
+    background:
+        #f8fafc;
+
+}
+
+
+.companies-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap:
+        16px;
+
+}
+
+
+.company-card {
+
+    min-height:
+        145px;
+
+    border:
+        1px solid
+        #dbe3ef;
+
+    border-radius:
+        16px;
+
+    background:
+        #ffffff;
+
+    position:
+        relative;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    overflow:
+        hidden;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+
+}
+
+
+.company-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    border-color:
+        #bfdbfe;
+
+    box-shadow:
+        0 14px 30px
+        rgba(37,99,235,0.12);
+
+}
+
+
+.company-card img {
+
+    width:
+        76%;
+
+    height:
+        78px;
+
+    object-fit:
+        contain;
+
+    object-position:
+        center;
+
+    display:
+        block;
+
+    opacity:
+        1;
+
+    filter:
+        brightness(1.12)
+        contrast(1.05)
+        saturate(1.05);
+
+    transition:
+        transform 0.25s ease;
+
+}
+
+
+.company-card:hover img {
+
+    transform:
+        scale(1.06);
+
+}
+
+
+.company-name {
+
+    margin-top:
+        7px;
+
+    font-weight:
+        700;
+
+    font-size:
+        12px;
+
+    text-align:
+        center;
+
+    color:
+        #172033;
+
+}
+
+
+.company-name small {
+
+    display:
+        block;
+
+    margin-top:
+        2px;
+
+    font-size:
+        9px;
+
+    font-weight:
+        500;
+
+    color:
+        #64748b;
+
+}
+
+
+.companies-footer {
+
+    margin-top:
+        18px;
+
+    padding:
+        17px;
+
+    text-align:
+        center;
+
+    border-radius:
+        12px;
+
+    background:
+        #ffffff;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    color:
+        #64748b;
 
     font-size:
         13px;
@@ -2798,13 +926,311 @@ MOBILE
 }
 
 
-.location-track {
+
+/* =====================================================
+   COLLEGES
+===================================================== */
+
+.colleges-section {
+
+    background:
+        #ffffff;
+
+}
+
+
+.college-search {
+
+    max-width:
+        560px;
+
+    margin:
+        0 auto 25px;
+
+}
+
+
+.college-search input {
+
+    width:
+        100%;
 
     padding:
-        0 22px;
+        14px 18px;
+
+    background:
+        #ffffff;
+
+    border:
+        1px solid
+        #dbe3ef;
+
+    border-radius:
+        10px;
+
+    outline:
+        none;
+
+    font-size:
+        14px;
+
+    color:
+        #172033;
+
+    box-shadow:
+        0 5px 15px
+        rgba(15,23,42,0.05);
+
+    transition:
+        0.25s ease;
+
+}
+
+
+.college-search input:focus {
+
+    border-color:
+        #93c5fd;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(37,99,235,0.08);
+
+}
+
+
+.college-table-wrapper {
+
+    background:
+        white;
+
+    border:
+        1px solid
+        #dbe3ef;
+
+    border-radius:
+        16px;
+
+    overflow:
+        hidden;
+
+    box-shadow:
+        0 8px 25px
+        rgba(15,23,42,0.06);
+
+    max-height:
+        520px;
+
+    overflow-y:
+        auto;
+
+}
+
+
+.college-table-wrapper table {
+
+    width:
+        100%;
+
+    border-collapse:
+        collapse;
+
+}
+
+
+.college-table-wrapper th {
+
+    padding:
+        15px;
+
+    background:
+        #f8fafc;
+
+    color:
+        #172033;
+
+    text-align:
+        left;
+
+    font-size:
+        11px;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        0.7px;
+
+    border-bottom:
+        1px solid
+        #dbe3ef;
+
+    position:
+        sticky;
+
+    top:
+        0;
+
+    z-index:
+        2;
+
+}
+
+
+.college-table-wrapper td {
+
+    padding:
+        13px 15px;
+
+    color:
+        #475569;
+
+    font-size:
+        13px;
+
+    border-bottom:
+        1px solid
+        #f1f5f9;
+
+}
+
+
+.college-table-wrapper tbody tr {
+
+    transition:
+        background 0.2s ease;
+
+}
+
+
+.college-table-wrapper tbody tr:hover {
+
+    background:
+        #f8fbff;
+
+}
+
+
+
+/* =====================================================
+   TRAINING LOCATIONS
+===================================================== */
+
+.locations-section {
+
+    padding:
+        65px 0 50px;
+
+    background:
+        #0f172a;
+
+    color:
+        white;
+
+}
+
+
+.locations-header {
+
+    padding:
+        0 55px 35px;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        flex-end;
 
     gap:
-        12px;
+        30px;
+
+}
+
+
+.locations-header .section-label {
+
+    color:
+        #60a5fa;
+
+}
+
+
+.locations-header h2 {
+
+    font-family:
+        "Poppins",
+        sans-serif;
+
+    font-size:
+        clamp(30px, 4vw, 45px);
+
+    line-height:
+        1.15;
+
+    color:
+        white;
+
+}
+
+
+.locations-header p {
+
+    max-width:
+        390px;
+
+    color:
+        #cbd5e1;
+
+    font-size:
+        14px;
+
+}
+
+
+
+/* =====================================================
+   LOCATION CAROUSEL
+===================================================== */
+
+.location-carousel {
+
+    position:
+        relative;
+
+    overflow:
+        hidden;
+
+    width:
+        100%;
+
+}
+
+
+.location-track {
+
+    display:
+        flex;
+
+    gap:
+        18px;
+
+    padding:
+        0 55px;
+
+    transition:
+        transform 0.75s
+        cubic-bezier(
+            0.22,
+            1,
+            0.36,
+            1
+        );
+
+    will-change:
+        transform;
 
 }
 
@@ -2814,25 +1240,229 @@ MOBILE
     flex:
         0 0
         calc(
-            100vw - 44px
+            (100% - 36px) / 3
         );
 
     height:
-        430px;
+        450px;
+
+    position:
+        relative;
 
     border-radius:
-        17px;
+        20px;
+
+    overflow:
+        hidden;
+
+    background:
+        #1e293b;
+
+    box-shadow:
+        0 18px 40px
+        rgba(0,0,0,0.25);
 
 }
 
 
-.location-arrow {
+.location-card img {
 
     width:
-        40px;
+        100%;
 
     height:
-        40px;
+        100%;
+
+    display:
+        block;
+
+    object-fit:
+        cover;
+
+    object-position:
+        center;
+
+    filter:
+        brightness(1.08)
+        saturate(1.12)
+        contrast(1.04);
+
+    transition:
+        transform 0.4s ease;
+
+}
+
+
+.location-card:hover img {
+
+    transform:
+        scale(1.025);
+
+}
+
+
+.location-card::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,0.70),
+            rgba(0,0,0,0.08) 45%,
+            transparent 70%
+        );
+
+    pointer-events:
+        none;
+
+}
+
+
+.location-card-info {
+
+    position:
+        absolute;
+
+    z-index:
+        3;
+
+    left:
+        20px;
+
+    right:
+        20px;
+
+    bottom:
+        20px;
+
+    color:
+        white;
+
+}
+
+
+.location-card-info span {
+
+    display:
+        inline-block;
+
+    padding:
+        6px 11px;
+
+    border-radius:
+        20px;
+
+    background:
+        rgba(255,255,255,0.95);
+
+    color:
+        #172033;
+
+    font-size:
+        10px;
+
+    font-weight:
+        800;
+
+    margin-bottom:
+        8px;
+
+}
+
+
+.location-card-info strong {
+
+    display:
+        block;
+
+    font-family:
+        "Poppins",
+        sans-serif;
+
+    font-size:
+        21px;
+
+    text-shadow:
+        0 2px 8px
+        rgba(0,0,0,0.4);
+
+}
+
+
+
+/* =====================================================
+   LOCATION ARROWS
+===================================================== */
+
+.location-arrow {
+
+    position:
+        absolute;
+
+    top:
+        50%;
+
+    transform:
+        translateY(-50%);
+
+    z-index:
+        10;
+
+    width:
+        48px;
+
+    height:
+        48px;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.45);
+
+    border-radius:
+        50%;
+
+    background:
+        rgba(15,23,42,0.75);
+
+    color:
+        white;
+
+    font-size:
+        22px;
+
+    cursor:
+        pointer;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    transition:
+        0.25s ease;
+
+}
+
+
+.location-arrow:hover {
+
+    background:
+        #ffffff;
+
+    color:
+        #0f172a;
 
 }
 
@@ -2840,7 +1470,7 @@ MOBILE
 .location-arrow.prev {
 
     left:
-        10px;
+        16px;
 
 }
 
@@ -2848,18 +1478,733 @@ MOBILE
 .location-arrow.next {
 
     right:
-        10px;
+        16px;
 
 }
 
+
+
+/* =====================================================
+   LOCATION DOTS
+===================================================== */
+
+.location-dots {
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    gap:
+        7px;
+
+    margin-top:
+        24px;
+
+}
+
+
+.location-dot {
+
+    width:
+        8px;
+
+    height:
+        8px;
+
+    border:
+        none;
+
+    border-radius:
+        20px;
+
+    background:
+        #64748b;
+
+    cursor:
+        pointer;
+
+    transition:
+        0.3s ease;
+
+}
+
+
+.location-dot.active {
+
+    width:
+        27px;
+
+    background:
+        #60a5fa;
+
+}
+
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
 
 .contact-section {
 
     padding:
-        45px 22px;
+        65px 55px;
+
+    background:
+        #ffffff;
 
 }
 
+
+.contact-heading {
+
+    text-align:
+        center;
+
+    max-width:
+        650px;
+
+    margin:
+        0 auto 35px;
+
 }
 
-Close
+
+.contact-heading h2 {
+
+    font-family:
+        "Poppins",
+        sans-serif;
+
+    font-size:
+        34px;
+
+    color:
+        #172033;
+
+}
+
+
+.contact-heading p {
+
+    margin-top:
+        10px;
+
+    color:
+        #64748b;
+
+    font-size:
+        14px;
+
+}
+
+
+.contact-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap:
+        16px;
+
+}
+
+
+.contact-card {
+
+    text-decoration:
+        none;
+
+    color:
+        inherit;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    border-radius:
+        15px;
+
+    padding:
+        20px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        14px;
+
+    transition:
+        0.25s ease;
+
+}
+
+
+.contact-card:hover {
+
+    transform:
+        translateY(-4px);
+
+    border-color:
+        #93c5fd;
+
+    box-shadow:
+        0 12px 25px
+        rgba(37,99,235,0.10);
+
+}
+
+
+.contact-icon {
+
+    width:
+        44px;
+
+    height:
+        44px;
+
+    border-radius:
+        12px;
+
+    background:
+        #eff6ff;
+
+    color:
+        #2563eb;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    font-size:
+        18px;
+
+    font-weight:
+        800;
+
+    flex-shrink:
+        0;
+
+}
+
+
+.contact-card span {
+
+    display:
+        block;
+
+    color:
+        #64748b;
+
+    font-size:
+        10px;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        1px;
+
+}
+
+
+.contact-card strong {
+
+    display:
+        block;
+
+    margin-top:
+        2px;
+
+    font-size:
+        13px;
+
+    color:
+        #172033;
+
+    word-break:
+        break-word;
+
+}
+
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer {
+
+    padding:
+        25px;
+
+    text-align:
+        center;
+
+    background:
+        #0f172a;
+
+    color:
+        #cbd5e1;
+
+}
+
+
+footer p {
+
+    font-weight:
+        600;
+
+    font-size:
+        13px;
+
+}
+
+
+footer span {
+
+    display:
+        block;
+
+    margin-top:
+        3px;
+
+    font-size:
+        10px;
+
+    color:
+        #94a3b8;
+
+}
+
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+    .nav-links {
+
+        gap:
+            13px;
+
+    }
+
+
+    .companies-grid {
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+    }
+
+
+    .location-card {
+
+        flex-basis:
+            calc(
+                (100% - 18px) / 2
+            );
+
+    }
+
+
+    .locations-header {
+
+        align-items:
+            flex-start;
+
+        flex-direction:
+            column;
+
+    }
+
+
+    .experience-layout {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .profile-photo-card {
+
+        width:
+            250px;
+
+        margin:
+            0 auto;
+
+    }
+
+
+    .contact-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .quick-stats {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .quick-stat:nth-child(1),
+    .quick-stat:nth-child(2) {
+
+        border-bottom:
+            1px solid
+            #dfe6ef;
+
+    }
+
+
+    .quick-stat:nth-child(2) {
+
+        border-right:
+            none;
+
+    }
+
+
+    .quick-stat:nth-child(4) {
+
+        border-right:
+            none;
+
+    }
+
+}
+
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .container {
+
+        width:
+            100%;
+
+        margin:
+            0;
+
+        border-radius:
+            0;
+
+    }
+
+
+    .navbar {
+
+        padding:
+            0 18px;
+
+    }
+
+
+    .nav-links {
+
+        display:
+            none;
+
+    }
+
+
+    .hero {
+
+        margin:
+            12px;
+
+        min-height:
+            245px;
+
+    }
+
+
+    .hero-name h1 {
+
+        font-size:
+            45px;
+
+    }
+
+
+    .hero-content > p {
+
+        font-size:
+            15px;
+
+    }
+
+
+    .hero-tag {
+
+        display:
+            block;
+
+        max-width:
+            280px;
+
+        margin:
+            auto;
+
+        line-height:
+            1.6;
+
+    }
+
+
+    .quick-stats {
+
+        width:
+            calc(100% - 24px);
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        border-radius:
+            0 0 14px 14px;
+
+    }
+
+
+    .quick-stat {
+
+        min-height:
+            92px;
+
+        padding:
+            16px 7px;
+
+    }
+
+
+    .quick-stat strong {
+
+        font-size:
+            30px;
+
+    }
+
+
+    .quick-stat span {
+
+        margin-top:
+            7px;
+
+        font-size:
+            11px;
+
+    }
+
+
+    .section {
+
+        padding:
+            45px 22px;
+
+    }
+
+
+    .section h2 {
+
+        font-size:
+            27px;
+
+    }
+
+
+    .experience-layout {
+
+        gap:
+            30px;
+
+    }
+
+
+    .profile-photo-card {
+
+        width:
+            220px;
+
+    }
+
+
+    .companies-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap:
+            11px;
+
+    }
+
+
+    .company-card {
+
+        min-height:
+            125px;
+
+    }
+
+
+    .company-card img {
+
+        width:
+            80%;
+
+        height:
+            62px;
+
+    }
+
+
+    .company-name {
+
+        font-size:
+            10px;
+
+    }
+
+
+    .college-table-wrapper {
+
+        max-height:
+            450px;
+
+    }
+
+
+    .college-table-wrapper th,
+    .college-table-wrapper td {
+
+        padding:
+            11px 9px;
+
+        font-size:
+            11px;
+
+    }
+
+
+    .locations-section {
+
+        padding:
+            45px 0 35px;
+
+    }
+
+
+    .locations-header {
+
+        padding:
+            0 22px 25px;
+
+    }
+
+
+    .locations-header h2 {
+
+        font-size:
+            30px;
+
+    }
+
+
+    .locations-header p {
+
+        font-size:
+            13px;
+
+    }
+
+
+    .location-track {
+
+        padding:
+            0 22px;
+
+        gap:
+            12px;
+
+    }
+
+
+    .location-card {
+
+        flex:
+            0 0
+            calc(
+                100vw - 44px
+            );
+
+        height:
+            430px;
+
+        border-radius:
+            17px;
+
+    }
+
+
+    .location-arrow {
+
+        width:
+            40px;
+
+        height:
+            40px;
+
+    }
+
+
+    .location-arrow.prev {
+
+        left:
+            10px;
+
+    }
+
+
+    .location-arrow.next {
+
+        right:
+            10px;
+
+    }
+
+
+    .contact-section {
+
+        padding:
+            45px 22px;
+
+    }
+
+}
